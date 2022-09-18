@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "structura",
+  "version": "${version}",
+
+  "name": "Structura",
+  "description": "A mod that touches up on existing structures, expected to be used with Cosma Mods.",
+  "authors": [
+    "LunarLuned",
+    "Sydokiddo (Building assistance & Coding help)",
+    "Ambient_ (Building assistance & Composer)"
+  ],
+  "contact": {
+    "homepage": "https://www.twitter.com/CosmaMods",
+    "sources": "https://github.com/LunarLuned/Structura"
+  },
+
+  "license": "MIT",
+  "icon": "assets/structura/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cosma.structura.Structura"
+    ]
+  },
+  "mixins": [
+    "structura.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17",
+    "peculia": ">=0.1.6-beta-1.19",
+    "lottablocks": ">=0.0.4-1.19.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
