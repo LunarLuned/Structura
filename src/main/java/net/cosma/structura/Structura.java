@@ -11,6 +11,6 @@ public class Structura implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("!");
+		LOGGER.info("Brought to you by Cosma Mods!");
 	}
 }
